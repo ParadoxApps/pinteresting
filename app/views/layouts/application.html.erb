@@ -9,10 +9,16 @@
 </head>
 <body>
 	<%= render 'layouts/header' %>
-	<div class="jumbotron">
-		<div class="container">
-			<%= yield %>
-		</div>
+	<div class="container">
+		
+		<!-- alert message -->
+		<% flash.each do |name, msg| %>
+			<%= content_tag(:div, msg, class: "alert alert-info") %>
+		<% end %>
+			
+		<!-- main content -->
+		<%= yield %>
+
 	</div>
 </body>
 </html>
