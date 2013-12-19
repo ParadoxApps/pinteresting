@@ -1,8 +1,21 @@
-$body-bg: #ffffff;
+/* $body-bg: #ffffff; */
 $navbar-inverse-bg: #16a085;
 $navbar-inverse-link-color: #ffffff;
-$brand-primary: #f39c12;
-$jumbotron-bg: #ecf0f1;
-
+$brand-primary: #16a085;
+$jumbotron-bg: transparent;
+$btn-default-bg: #bdc3c7;
+$border-radius-base: 2px;
+$border-radius-large: 2px;
+$border-radius-small: 2px;
 
 @import 'bootstrap';
+
+
+/* Ty Custom CSS */ 
+body {
+	background: transparent url('/assets/bg.png') repeat!important;
+	}
+
+hr {
+border-top: 6px solid #bdc3c7;
+}
