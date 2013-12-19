@@ -1,9 +1,9 @@
-/* $body-bg: #ffffff; */
-$navbar-inverse-bg: #16a085;
-$navbar-inverse-link-color: #ffffff;
-$brand-primary: #16a085;
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+$font-family-sans-serif: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-default-bg: #ffffff;
+$brand-primary: #C92228;
 $jumbotron-bg: transparent;
-$btn-default-bg: #bdc3c7;
 $border-radius-base: 2px;
 $border-radius-large: 2px;
 $border-radius-small: 2px;
@@ -12,10 +12,15 @@ $border-radius-small: 2px;
 
 
 /* Ty Custom CSS */ 
+
 body {
 	background: transparent url('/assets/bg.png') repeat!important;
-	}
+}
 
 hr {
-border-top: 6px solid #bdc3c7;
+	border-top: 6px solid #bdc3c7;
+}
+
+.navbar-default .navbar-brand {
+	color: #C92228!important;
 }
