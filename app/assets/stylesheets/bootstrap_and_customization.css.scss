@@ -14,7 +14,7 @@ $border-radius-small: 2px;
 /* Ty Custom CSS */ 
 
 body {
-	background: transparent url(<%= asset_data_uri "bg.png" %>) repeat!important;
+	background: transparent url('/assets/bg.png') repeat!important;
 }
 
 hr {
